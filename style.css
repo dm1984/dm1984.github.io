@@ -14,25 +14,25 @@ overflow: hidden;
 /*-------------------Index open----------------------------*/
 .index-head {
 text-align: center;
-padding: 5em 0 10em 0;
-}
-
-img {
-padding: 2em;
+padding: 6em 0 10em 0;
 }
 
 .index-head h1 {
 font-size: 4em;
 line-height: 2em;
 } 
+
+.index-nav {
+padding: 2em 0;
+}
+
 .index-nav a {
 font-size: 2em;
 color: #111;
 line-height: 1.5em;
 }
-
-
 /*-------------------Index close---------------------------*/
+
 /*-------------------Unread open---------------------------*/
 
 .unread-head {

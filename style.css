@@ -59,7 +59,7 @@ color: #111;
 }
 
 .project-page-head {
-padding: 0;
+padding-bottom: 2em;
 text-align: center;
 
 }
@@ -95,28 +95,21 @@ text-decoration: underline;
 /*----------------unread-close-------------------*/
 
 /* ---------------image-gallery-open-------------------------------------*/
-.renovatio-main {
-padding: 1em 0;
+.gallery-main {
+padding: 0;
+margin: 1em;
 }
 
-figure.all{
-width:100%;
+figure.all {
 margin: auto;
 overflow: hidden;
 display: block;
 text-align:center;
 }
-/*figure.einzel {
-display: block;
-float: left;
-}*/
 
-.renovatio-main img {
-/*height:100%;
-width: 30%;*/
-height: auto;
-width: 250px;
-padding: 2em;
+.gallery-main img {
+padding: 0;
+margin: 1em;
 }
 
 /* ------------------image-gallery-close--------------------------------------------------------*/

@@ -256,15 +256,15 @@ margin: 1.5em 0;
 }
 
 .container {
-font-size: 6em;
+font-size: 2.5em;
 text-align: center;
 color: #fff;
-padding: 2em;
+padding: 2em 1em;
 font-family: "Oswald", sans-serif; 
 height: 100vh;
 }
 .container a  {
-font-size: 0.3em;
+font-size: 0.5em;
 color:#fff;
 }
 
@@ -328,6 +328,12 @@ padding: 0;
 .infos {
 float: right;
 line-height: 1.4em;
+}
+.container {
+font-size: 6em;
+}
+.container a {
+font-size: 0.3em;
 }
 }
 

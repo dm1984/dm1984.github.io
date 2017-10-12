@@ -2,7 +2,7 @@ html { -webkit-text-size-adjust: none; }
 
 body {
 width: 100%;
-font-family: 'Courier New', serif;
+font-family: 'Oswald', sans-serif;
 font-size: 100%;
 color: #111;
 background: #fff;
@@ -13,49 +13,39 @@ overflow: hidden;
 }*/
 /*-------------------index open----------------------------*/
 .index-head {
-text-align: center;
-padding: 6em 0 10em 0;
+padding: 1em 2em;
 }
-
-/*.index-head img {
-padding: 2em;
-}*/
-
-.index-head h1 {
-font-size: 4em;
-line-height: 2em;
-} 
 
 .index-nav {
-padding: 2em 0;
-}
-
-.index-nav a {
-font-size: 2em;
-color: #111;
+text-align: justify;
 line-height: 1.5em;
+font-size: 1.8em;
 }
+ .index-nav a {
+ color: #111;
+ }
 
 
 /*-------------------index-close---------------------------*/
 
 /*-------------------Project-page-open---------------------*/
-.back-to-index-nav {
-padding: 2em 0 3em 0;
+.top-nav {
+padding: 5vh 0 10vh 0;
 }
 
-.back-to-index-nav ul {
+.top-nav ul {
 list-style: none;
 text-align: center;
 }
 
-.back-to-index-nav li {
+.top-nav li {
 display: inline;
-padding:0 1em;
+padding:0;
 }
 
-.back-to-index-nav a {
+.top-nav a {
 color: #111;
+padding: 1em;
 }
 
 .project-page-head {
@@ -73,33 +63,47 @@ color: #111;
 line-height: 3.5em;
 }
 
-/*-------------------project-page-open---------------------*/
+/*-------------------project-page-close---------------------*/
+
+/*-------------------library-open--------------------------*/
+img.cover {
+width: 130px;
+box-shadow: 0 10px 10px #888888;
+}
+/*-------------------library-close--------------------------*/
 
 /*-------------------unread-open---------------------------*/
 .unread-main {
-width: 80%;
-margin: auto;
+margin: 0 5vw;
 background: #fff;
-line-height: 2em;
-padding: 3em 0;
+line-height: 1.7em;
+padding: 2em 0;
 font-size: 1.2em;
+text-align: justify;
 }
 
 .unread-main a {
 text-decoration: none;
-font-weight: bold;
+font-weight: regular;
 color: #111;
-border-right: 2px solid #111;
-margin-right: 0.85em;
-padding-right: 0.5em;
 }
 
-strong {
+.unread-main span {
 text-decoration: underline;
 }
 
 /*----------------unread-close-------------------*/
 
+/*----------------me-open-----------------------*/
+.me-main {
+text-align: center;
+}
+
+img.fitted {
+width: 80vw;
+max-width: 450px;
+}
+/*----------------me-close----------------------*/
 /*----------------hiddenpoetry-howto open-------*/
 .hiddenpoetry-main {
 width: 665px;
@@ -139,6 +143,10 @@ text-align:center;
 .gallery-main img {
 padding: 0;
 margin: 1em;
+}
+
+.gallery-main a {
+text-decoration: none;
 }
 
 /* ------------------image-gallery-close--------------------------------------------------------*/

@@ -159,7 +159,7 @@ text-align: center;
 @media only screen /*smartphone*/
 and (min-device-width: 320px)
 and (max-device-width: 750px) {
-.nav-new {
+.index-nav {
 font-size: 1.2em;
 }
 .project-page-head h1{

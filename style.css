@@ -7,73 +7,8 @@ font-size: 100%;
 color: #111;
 background: #fff;
 }
-  
-/*div {
-overflow: hidden;
-}*/
-/*-------------------index open----------------------------*/
-.index-head {
-padding: 1em 2em;
-}
 
-.index-nav {
-text-align: justify;
-line-height: 1.5em;
-font-size: 1.8em;
-}
- .index-nav a {
- color: #111;
- }
-
-
-/*-------------------index-close---------------------------*/
-
-/*-------------------Project-page-open---------------------*/
-.top-nav {
-padding: 5vh 0 10vh 0;
-}
-
-.top-nav ul {
-list-style: none;
-text-align: center;
-}
-
-.top-nav li {
-display: inline;
-padding:0;
-}
-
-.top-nav a {
-color: #111;
-padding: 1em;
-}
-
-.project-page-head {
-padding-bottom: 2em;
-text-align: center;
-
-}
-.project-page-head h1 {
-font-size: 5em;
-}
-
-.project-page-head a {
-font-weight: bold;
-color: #111;
-line-height: 3.5em;
-}
-
-/*-------------------project-page-close---------------------*/
-
-/*-------------------library-open--------------------------*/
-img.cover {
-width: 130px;
-box-shadow: 0 10px 10px #888888;
-}
-/*-------------------library-close--------------------------*/
-
-/*-------------------unread-open---------------------------*/
-.unread-main {
+main {
 margin: 0 5vw;
 background: #fff;
 line-height: 1.7em;
@@ -82,106 +17,12 @@ font-size: 1.2em;
 text-align: justify;
 }
 
-.unread-main a {
+main a {
 text-decoration: none;
 font-weight: regular;
 color: #111;
 }
 
-.unread-main span {
+main span {
 text-decoration: underline;
 }
-
-/*----------------unread-close-------------------*/
-
-/*----------------me-open-----------------------*/
-.me-main {
-text-align: center;
-}
-
-img.fitted {
-width: 80vw;
-max-width: 450px;
-}
-/*----------------me-close----------------------*/
-/*----------------hiddenpoetry-howto open-------*/
-.hiddenpoetry-main {
-width: 665px;
-margin: 0 auto;
-font-size: 1.2em;
-line-height: 1.8em;
-}
-
-.hiddenpoetry-main div {
-padding: 1em 0 2em 0;
-}
-
-.hiddenpoetry-main div p {
-padding-top: 1em;
-}
-
-.hiddenpoetry-main a {
-color: #111;
-}
-
-/*----------------hiddenpoetry-howto close-------*/
-
-
-/* ---------------image-gallery-open-------------------------------------*/
-.gallery-main {
-padding: 0;
-margin: 1em;
-}
-
-figure.all {
-margin: auto;
-overflow: hidden;
-display: block;
-text-align:center;
-}
-
-.gallery-main img {
-padding: 0;
-margin: 1em;
-}
-
-.gallery-main a {
-text-decoration: none;
-}
-
-/* ------------------image-gallery-close--------------------------------------------------------*/
-.footer {
-padding: 2em 0;
-text-align: center;
-}
-
-
-@media only screen /*smartphone*/
-and (min-device-width: 320px)
-and (max-device-width: 750px) {
-.index-nav {
-font-size: 1.2em;
-}
-.project-page-head h1{
-font-size: 3em;
-}
-.gallery-main img {
-margin: 0.6em;
-}
-.hiddenpoetry-main {
-width: 90%;
-font-size: 1em;
-}
-.hiddenpoetry-main img {
-width: 250px;
-height: auto;
-}
-   
-}
-
- 
-/*@media only screen /*tablet
-and (min-device-width : 750px) 
-and (max-device-width : 1024px)
- { 
-}*/
